@@ -208,7 +208,7 @@
         </div>
       </div>
     </section>
-    <!-- create section section -->
+    <!-- create section -->
     <section id="create-section" class="py-5">
       <div class="container">
         <div class="row">
@@ -248,7 +248,7 @@
         </div>
       </div>
     </section>
-    <!-- share section -->
+    <!-- share head section -->
 
     <section id="share-head-section" class="bg-primary">
       <div class="container">
@@ -305,6 +305,58 @@
         </div>
       </div>
     </section>
+
+    <!-- footer -->
+    <footer id="main-footer" class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-4">
+            <h3>looplab</h3>
+            <p>Copyright &copy; <span id="year"></span></p>
+            <button
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#contact-modal"
+            >
+              contact us
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- contact modal -->
+    <div class="modal fade text-dark" id="contact-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact us</h5>
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="POST">
+              <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="Message">Message</label>
+                <textarea class="form-control"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary btn-block">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
