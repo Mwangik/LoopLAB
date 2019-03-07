@@ -44,3 +44,10 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
+/* create section */
+#create-section .fas {
+  background: #fff;
+  color: #333;
+  padding: 5px;
+  border-radius: 5px;
+}
